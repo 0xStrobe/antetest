@@ -9,7 +9,7 @@
     "deploy-test": "npx hardhat run scripts/deploy_test.ts",
     "deploy": "npx hardhat run scripts/deploy.ts"
   },
-  "license": "GPLv3",
+  "license": "GPL-3.0-or-later",
   "devDependencies": {
     "@chainlink/contracts": "^0.4.2",
     "@nomicfoundation/hardhat-toolbox": "^1.0.2",
