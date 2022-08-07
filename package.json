@@ -6,7 +6,8 @@
     "compile": "npx hardhat compile",
     "test": "npx hardhat typechain && npx hardhat test",
     "node": "npx hardhat node",
-    "deploy-test": "npx hardhat run scripts/deploy_test.ts"
+    "deploy-test": "npx hardhat run scripts/deploy_test.ts",
+    "deploy": "npx hardhat run scripts/deploy.ts"
   },
   "license": "GPLv3",
   "devDependencies": {
